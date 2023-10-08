@@ -1,0 +1,32 @@
+.barContainer {
+  background-color: var(--very-dark-desaturated-blue);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.barContainer button {
+  margin-left: 1rem;
+}
+
+.barContainer .inputWrapper {
+  width: 100%;
+  background-color: var(--very-dark-desaturated-blue);
+  border: none;
+  outline: none;
+}
+
+.inputWrapper input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  background-color: transparent;
+  color: white;
+}
+
+.barContainer:focus-within {
+  outline: 3px dotted var(--dark-grayish-blue);
+  outline-offset: 2px;
+}

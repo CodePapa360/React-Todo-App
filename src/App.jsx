@@ -1,5 +1,13 @@
+import Header from "./components/Header";
+import InputBar from "./components/InputBar";
+
 function App() {
-  return <p>Hi</p>;
+  return (
+    <div className="top-container">
+      <Header />
+      <InputBar />
+    </div>
+  );
 }
 
 export default App;
