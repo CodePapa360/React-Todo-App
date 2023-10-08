@@ -4,7 +4,7 @@ function header() {
   return (
     <header className={styles.header}>
       <p className={styles.logo}>Todo</p>
-      <div>
+      <div className={styles.darkToggle}>
         <img src="./images/icon-sun.svg" alt="Sun icon" />
       </div>
     </header>

@@ -1,0 +1,4 @@
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,10 +1,12 @@
 import styles from "./InputBar.module.css";
-import ButtonCheck from "./ButtonCheck";
+import Button from "./Button";
 
 function InputBar() {
   return (
     <div className={styles.barContainer}>
-      <ButtonCheck />
+      <Button>
+        <span></span>
+      </Button>
       <div className={styles.inputWrapper}>
         <input type="text" name="add-todo" />
       </div>

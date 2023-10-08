@@ -11,3 +11,7 @@
   font-size: 1.5rem;
   letter-spacing: 5px;
 }
+
+.darkToggle {
+  cursor: pointer;
+}
