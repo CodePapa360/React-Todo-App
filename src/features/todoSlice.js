@@ -1,17 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const dummyTodos = [
-  { content: "Complete online JavaScript course", done: true, id: 3423 },
-  { content: "10 Minutes meditation", done: false, id: 234 },
-  { content: "Read for 1 hour", done: false, id: 34564 },
-  { content: "Pick up groceries", done: false, id: 765764 },
-  { content: "Complete Todo app on Frontend Mentor", done: false, id: 55532 },
-];
+// const dummyTodos = [
+//   { content: "Complete online JavaScript course", done: true, id: 3423 },
+//   { content: "10 Minutes meditation", done: false, id: 234 },
+//   { content: "Read for 1 hour", done: false, id: 34564 },
+//   { content: "Pick up groceries", done: false, id: 765764 },
+//   { content: "Complete Todo app on Frontend Mentor", done: false, id: 55532 },
+// ];
 
 const loadTodosFromLocalStorage = () => {
   try {
     const storedTodos = localStorage.getItem("todos");
-    return storedTodos ? JSON.parse(storedTodos) : dummyTodos;
+    return storedTodos ? JSON.parse(storedTodos) : [];
   } catch (error) {
     console.error("Error loading todos from local storage:", error);
     return [];
