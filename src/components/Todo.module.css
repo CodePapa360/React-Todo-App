@@ -36,16 +36,6 @@
   z-index: 22;
 }
 
-/* .circle > *::after {
-  content: "";
-  position: absolute;
-  background-image: linear-gradient(to left, #743ad5, #d53a9d);
-  height: 22px;
-  width: 22px;
-  border-radius: 50%;
-  z-index: 1;
-} */
-
 .circle:hover > * {
   background: linear-gradient(
         var(--very-dark-desaturated-blue),
@@ -60,4 +50,8 @@
   display: inline-block;
   max-width: 140px;
   /* background-color: red; */
+}
+
+.cross:hover {
+  filter: brightness(200%);
 }

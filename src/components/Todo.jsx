@@ -4,7 +4,7 @@ import styles from "./Todo.module.css";
 function Todo() {
   return (
     <li className={styles.todoWrapper}>
-      <Button className={styles.circle}>
+      <Button className={`${styles.circle}`}>
         <span></span>
       </Button>
       <p>
