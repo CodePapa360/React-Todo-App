@@ -34,7 +34,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 <!-- Screenshot -->
 <a align="center" href="https://todo-app-codepapa360.vercel.app">
 
-![Screenshot](./public/thumbnail-preview.png)
+![Screenshot](./public/images/thumbnail-preview.png)
 
 </a>
 
