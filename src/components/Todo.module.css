@@ -18,6 +18,11 @@
   margin-right: auto;
 }
 
+.todoWrapper p.checked {
+  text-decoration: line-through;
+  color: var(--dark-grayish-blue);
+}
+
 .todoWrapper button {
   height: var(--height);
   padding: 0 0.5rem;

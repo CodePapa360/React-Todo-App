@@ -14,7 +14,3 @@
 .btn:hover {
   color: var(--light-grayish-blue);
 }
-
-.active {
-  color: var(--bright-blue);
-}
