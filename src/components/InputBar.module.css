@@ -39,6 +39,6 @@
 }
 
 .barContainer:focus-within {
-  outline: 3px dotted var(--dark-grayish-blue);
+  outline: 3px dotted var(--clr-focus);
   outline-offset: 2px;
 }

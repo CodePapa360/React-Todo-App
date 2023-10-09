@@ -27,6 +27,7 @@ function InputBar() {
       <div className={styles.inputWrapper}>
         <input
           ref={inputRef}
+          placeholder="Create a new todo..."
           type="text"
           name="add-todo"
           value={newTodo}

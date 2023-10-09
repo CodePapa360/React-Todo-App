@@ -19,7 +19,7 @@ function Todo({ todo }) {
     <li className={styles.todoWrapper}>
       <Button
         onClick={handleDone}
-        className={`${todo.done ? "checkedCircle" : ""} ${styles.circle}`}
+        className={`${todo.done ? styles.checkedCircle : ""} ${styles.circle}`}
       >
         <span></span>
       </Button>

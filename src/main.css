@@ -10,6 +10,7 @@
   --dark-grayish-blue: hsl(234, 11%, 52%);
   --light-grayish-blue: hsl(236, 33%, 92%);
   --very-dark-grayish-blue: hsl(237, 14%, 26%);
+  --clr-focus: rgb(194, 194, 194);
 }
 
 body {
@@ -21,6 +22,11 @@ body {
   max-width: 40rem;
   margin: auto;
   padding: 2.5rem 1rem 1rem;
+}
+
+.todoTopContainer {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .background {
@@ -42,12 +48,13 @@ body {
   }
 }
 
+/* Dark Theme */
 :root[data-theme="dark"] {
-  /* Dark Theme */
   --very-dark-blue: hsl(0, 0%, 98%);
   --very-dark-desaturated-blue: hsl(0, 0%, 98%);
   --light-grayish-blue: hsl(235, 19%, 35%);
   --very-dark-grayish-blue: hsl(236, 33%, 92%);
+  --clr-focus: rgb(231, 231, 231);
 
   .background {
     background-image: url("/images/bg-mobile-light.jpg");
@@ -58,31 +65,4 @@ body {
       background-image: url("/images/bg-desktop-light.jpg");
     }
   }
-}
-
-.checkedCircle > *,
-.checkedCircle:hover > * {
-  background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%))
-    border-box;
-  border: 2px solid transparent;
-  position: relative;
-}
-
-.checkedCircle > *::after {
-  color: white;
-  content: "✓";
-  position: absolute;
-  display: flex;
-  top: -2px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.btnActive {
-  color: var(--bright-blue);
-}
-
-.todoTopContainer {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
 }

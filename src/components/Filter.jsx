@@ -30,19 +30,19 @@ function Filter({ isMobile }) {
       className={`${!isMobile ? "" : styles.desktopFilter} ${styles.filter}`}
     >
       <Button
-        className={toFiltered === "all" ? "btnActive" : ""}
+        className={toFiltered === "all" ? styles.btnActive : ""}
         onClick={handleAllFilter}
       >
         All
       </Button>
       <Button
-        className={toFiltered === "active" ? "btnActive" : ""}
+        className={toFiltered === "active" ? styles.btnActive : ""}
         onClick={handleActiveFilter}
       >
         Active
       </Button>
       <Button
-        className={toFiltered === "completed" ? "btnActive" : ""}
+        className={toFiltered === "completed" ? styles.btnActive : ""}
         onClick={handleCompletedFilter}
       >
         Completed

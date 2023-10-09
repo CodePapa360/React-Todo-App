@@ -47,14 +47,30 @@
         var(--very-dark-desaturated-blue)
       )
       padding-box,
-    linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%)) border-box;
+    var(--check-background) border-box;
   border: 2px solid transparent;
+}
+
+.checkedCircle > *,
+.checkedCircle:hover > * {
+  background: var(--check-background) border-box;
+  border: 2px solid transparent;
+  position: relative;
+}
+
+.checkedCircle > *::after {
+  color: white;
+  content: "✓";
+  position: absolute;
+  display: flex;
+  top: -2px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .cross > * {
   display: inline-block;
   max-width: 140px;
-  /* background-color: red; */
 }
 
 .cross:hover {
