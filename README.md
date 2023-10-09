@@ -1,8 +1,8 @@
-<a href="https://todo-app-codepapa360.vercel.app" align="center">
+<div align="center">
 
 # Todo app
 
-</a>
+</div>
 <div align="center">
 
 Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
@@ -64,6 +64,18 @@ Users should be able to:
 - [Vite](https://vitejs.dev/) - A JavaScript module bundler and development server.
 
 ## What I Learned
+
+In the process of building my first React project, I gained valuable insights and skills:
+
+- **React Fundamentals:** I grasped the fundamental concepts of React, such as components, state, and props, which formed the backbone of my application.
+
+- **State Management:** I explored state management in React using Redux Toolkit, enabling me to efficiently manage and update the application's data.
+
+- **Modular CSS:** I adopted modular CSS, a new approach that allowed me to create well-structured and maintainable styles for my components, enhancing code organization and reusability.
+
+- **UI/UX Design:** I ventured into UI/UX design principles, striving to create an intuitive and visually appealing interface for the app.
+
+Building this Todo app marked a significant step in my React journey, and I'm excited to continue learning and applying my newfound knowledge to future endeavors.
 
 ## Installation
 
