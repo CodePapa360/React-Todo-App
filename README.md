@@ -67,7 +67,7 @@ Users should be able to:
 - Clone this repo:
 
 ```sh
-git clone https://github.com/CodePapa360/Todo-App.git
+git clone https://github.com/CodePapa360/React-Todo-App.git
 ```
 
 - Install dependencies:
@@ -105,4 +105,4 @@ This project was inspired by the "Todo App" challenge from Frontend Mentor. Spec
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/CodePapa360/Todo-App/blob/main/LICENSE.md) License - see the LICENSE file for details.
+This project is licensed under the [MIT](./LICENSE.md) License - see the LICENSE file for details.
