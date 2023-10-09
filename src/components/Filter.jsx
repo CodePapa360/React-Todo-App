@@ -9,7 +9,7 @@ import {
 
 import { useSelector } from "react-redux/es/hooks/useSelector";
 
-function Filter() {
+function Filter({ isMobile }) {
   const dispatch = useDispatch();
   const toFiltered = useSelector((state) => state.todo.filter);
 
@@ -26,7 +26,9 @@ function Filter() {
   }
 
   return (
-    <div className={styles.filter}>
+    <div
+      className={`${!isMobile ? "" : styles.desktopFilter} ${styles.filter}`}
+    >
       <Button
         className={toFiltered === "all" ? "btnActive" : ""}
         onClick={handleAllFilter}

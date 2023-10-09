@@ -35,7 +35,7 @@
   outline: none;
   padding: 1rem;
   background-color: transparent;
-  color: white;
+  color: var(--light-grayish-blue);
 }
 
 .barContainer:focus-within {

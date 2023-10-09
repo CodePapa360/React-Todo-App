@@ -1,14 +1,20 @@
 import styles from "./Header.module.css";
+import useDarkMode from "../hooks/useDarkMode";
 
-function header() {
+function Header() {
+  const [isDarkMode, toggleDarkMode] = useDarkMode();
+
   return (
     <header className={styles.header}>
       <p className={styles.logo}>Todo</p>
-      <div className={styles.darkToggle}>
-        <img src="./images/icon-sun.svg" alt="Sun icon" />
+      <div onClick={toggleDarkMode} className={styles.darkToggle}>
+        <img
+          src={`./images/icon-${isDarkMode ? "moon" : "sun"}.svg`}
+          alt={`${isDarkMode ? "moon" : "sun"} icon`}
+        />
       </div>
     </header>
   );
 }
 
-export default header;
+export default Header;
