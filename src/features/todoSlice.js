@@ -1,38 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-// const tempTodo = [
-//   {
-//     id: 10,
-//     content: "Going to scool",
-//     done: false,
-//   },
-//   {
-//     id: 11,
-//     content: "Playing football",
-//     done: true,
-//   },
-//   {
-//     id: 12,
-//     content: "Talking to friends",
-//     done: false,
-//   },
-//   {
-//     id: 13,
-//     content: "Food shopping",
-//     done: false,
-//   },
-//   {
-//     id: 14,
-//     content: "Filling the gas to the car",
-//     done: true,
-//   },
-// ];
-
-// const initialState = {
-//   todos: tempTodo,
-//   filter: "all",
-// };
-
 const loadTodosFromLocalStorage = () => {
   try {
     const storedTodos = localStorage.getItem("todos");

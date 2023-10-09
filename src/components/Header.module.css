@@ -9,7 +9,7 @@
   color: white;
   text-transform: uppercase;
   letter-spacing: 5px;
-
+  font-weight: 700;
   font-size: clamp(1.5rem, 5vw, 3rem);
 }
 
