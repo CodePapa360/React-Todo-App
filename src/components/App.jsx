@@ -9,7 +9,8 @@ function App() {
   const isMobile = useWidnowSize();
 
   return (
-    <>
+    <main>
+      <h1 className="sr-only">React Todo App</h1>
       <div className="background"></div>
       <div className="topContainer">
         <Header />
@@ -21,7 +22,7 @@ function App() {
 
         {!isMobile && <Filter isMobile={!isMobile} />}
       </div>
-    </>
+    </main>
   );
 }
 

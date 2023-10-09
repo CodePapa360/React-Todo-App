@@ -11,7 +11,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 [🚀Live Site](https://todo-app-codepapa360.vercel.app)
 ||
-[💡Frontend Mentor]()
+[💡Frontend Mentor](https://www.frontendmentor.io/solutions/todo-app-with-react-and-redux-toolkit-S6OHXSKJQi)
 
 </h2>
 </div>

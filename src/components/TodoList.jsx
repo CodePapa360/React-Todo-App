@@ -9,7 +9,7 @@ function TodoList() {
   return (
     <ul className={styles.todoContainer}>
       {filteredTodos.length === 0 ? (
-        <p className={styles.emptyText}>Empty</p>
+        <li className={styles.emptyText}>Empty</li>
       ) : (
         filteredTodos.map((todo) => <Todo todo={todo} key={todo.id} />)
       )}
