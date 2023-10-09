@@ -24,10 +24,6 @@
 body {
   background-color: var(--very-dark-blue);
   font-family: "Josefin Sans", sans-serif;
-  /* background-image: url("./images/bg-mobile-dark.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain; */
 }
 
 .top-container {
@@ -37,7 +33,7 @@ body {
 }
 
 .background {
-  background-image: url("../images/bg-mobile-dark.jpg");
+  background-image: url("/images/bg-mobile-dark.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -51,7 +47,7 @@ body {
 
 @media screen and (min-width: 600px) {
   .background {
-    background-image: url("../images/bg-desktop-dark.jpg");
+    background-image: url("/images/bg-desktop-dark.jpg");
   }
 }
 
