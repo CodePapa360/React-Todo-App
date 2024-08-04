@@ -61,11 +61,12 @@ Users should be able to:
 
 ## Built with
 
-- [React](https://reactjs.org/) - JS library
+- React
+- Redux Toolkit
 - CSS
 - HTML5
 - Mobile-first workflow
-- [Vite](https://vitejs.dev/) - A JavaScript module bundler and development server.
+- Vite
 
 ## What I Learned
 
